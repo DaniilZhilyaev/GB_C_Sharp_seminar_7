@@ -27,8 +27,8 @@ double[] AverageArifmetic(int[,] array)
         {
             summ = summ + array[i, j];
         }
-         average = summ / array.GetLength(0);
-         result[j] = average;
+        average = summ / array.GetLength(0);
+        result[j] = average;
     }
     return result;
 }
